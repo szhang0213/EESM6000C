@@ -2,7 +2,7 @@
 ===
 **Skeleton Overview**
 ---
-* report                
+* docs                
 * sim                
          * fir_tb.v: The testbench for FIR. There is a random delay between sending awaddr and wdata.              
 * src                
