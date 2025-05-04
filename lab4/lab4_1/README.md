@@ -1,12 +1,12 @@
 Simulation
 ------------
 ```Bash
-cd ./testbench/counter_la_fir/
+cd ./lab4_1/lab-exmem_fir/testbench
 source run_clean
 source run_sim
 ```
 Waveform
 -----------
 ```Bash
-gtkwave 
+gtkwave counter_la_fir.vcd
 ```
