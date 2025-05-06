@@ -111,7 +111,7 @@ void main()
 	reg_la3_oenb = reg_la3_iena = 0x00000000;    // [127:96]
 
 	// Flag start of the test 
-	reg_mprj_datal = 0xAB400000;
+	//reg_mprj_datal = 0xAB400000;
 
 	// Set Counter value to zero through LA probes [63:32]
 	reg_la1_data = 0x00000000;
