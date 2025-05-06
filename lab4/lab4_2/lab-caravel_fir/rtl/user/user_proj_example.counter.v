@@ -92,7 +92,7 @@ module user_proj_example #(
     wire [3:0] user_bram_wen;
     wire user_bram_en;
     wire [31:0] user_bram_Di;
-    wire [31:0] user_bram_Do; // ??????????????????????
+    wire [31:0] user_bram_Do;
     wire [31:0] user_bram_A;  
 
 
@@ -307,7 +307,7 @@ module user_proj_example #(
     // outputs
     assign wbs_ack_o = awready && wready       ||
                        wb_axis_tready          ||
-                      (cnt_delay == (DELAYS - 1)); // ?????????????
+                      (cnt_delay == (DELAYS - 1)); 
     
     assign wbs_dat_o = ({32{user_bram_en}}   & user_bram_Do) |
                        ({32{wb_axis_tready}} & sm_tdata);
