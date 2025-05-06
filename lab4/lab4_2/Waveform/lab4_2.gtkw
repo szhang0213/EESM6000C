@@ -1,0 +1,75 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue May  6 09:20:19 2025
+[*]
+[dumpfile] "/home/ubuntu/Documents/soc_lab/lab4_2/lab-caravel_fir/testbench/counter_la_fir/counter_la_fir.vcd"
+[dumpfile_mtime] "Tue May  6 08:17:36 2025"
+[dumpfile_size] 36758096
+[savefile] "/home/ubuntu/Desktop/lab4_2.gtkw"
+[timestart] 1521749400
+[size] 2488 1349
+[pos] -51 -51
+*-15.732312 1521962500 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] counter_la_fir_tb.
+[treeopen] counter_la_fir_tb.uut.
+[treeopen] counter_la_fir_tb.uut.mprj.
+[treeopen] counter_la_fir_tb.uut.mprj.mprj.
+[sst_width] 273
+[signals_width] 328
+[sst_expanded] 1
+[sst_vpaned_height] 398
+@200
+-
+-#wishbone
+@28
+counter_la_fir_tb.uut.mprj.wb_clk_i
+counter_la_fir_tb.uut.mprj.wb_rst_i
+counter_la_fir_tb.uut.mprj.wbs_cyc_i
+counter_la_fir_tb.uut.mprj.wbs_stb_i
+counter_la_fir_tb.uut.mprj.wbs_we_i
+@22
+counter_la_fir_tb.uut.mprj.wbs_sel_i[3:0]
+@28
+counter_la_fir_tb.uut.mprj.wbs_ack_o
+@22
+counter_la_fir_tb.uut.mprj.wbs_adr_i[31:0]
+counter_la_fir_tb.uut.mprj.wbs_dat_i[31:0]
+@23
+counter_la_fir_tb.uut.mprj.wbs_dat_o[31:0]
+@200
+-
+-#FIR
+@28
+counter_la_fir_tb.uut.mprj.mprj.is_access_axi
+counter_la_fir_tb.uut.mprj.mprj.fir_DUT.fir_start
+counter_la_fir_tb.uut.mprj.mprj.fir_DUT.ap_idle
+counter_la_fir_tb.uut.mprj.mprj.fir_DUT.ap_done
+@200
+-
+-#axi-lite
+@28
+counter_la_fir_tb.uut.mprj.mprj.is_access_lite
+counter_la_fir_tb.uut.mprj.mprj.access_lite_wr
+counter_la_fir_tb.uut.mprj.mprj.access_lite_rd
+@22
+counter_la_fir_tb.uut.mprj.mprj.awaddr[11:0]
+counter_la_fir_tb.uut.mprj.mprj.wdata[31:0]
+@200
+-
+-#axi-stream slave
+@28
+counter_la_fir_tb.uut.mprj.mprj.is_config_x
+counter_la_fir_tb.uut.mprj.mprj.ss_tvalid
+@22
+counter_la_fir_tb.uut.mprj.mprj.ss_tdata[31:0]
+@200
+-
+-#axi-stream master
+@28
+counter_la_fir_tb.uut.mprj.mprj.sm_tvalid
+@22
+counter_la_fir_tb.uut.mprj.mprj.sm_tdata[31:0]
+@28
+counter_la_fir_tb.uut.mprj.mprj.sm_tready
+[pattern_trace] 1
+[pattern_trace] 0
